@@ -3,16 +3,99 @@
    * Dynamically load and render services from JSON
    */
   document.addEventListener("DOMContentLoaded", function () {
-    // Dynamically load and render portfolio items from JSON
+    // Dynamically render testimonials from JSON and initialize Swiper
+    const testimonialsWrapper = document.getElementById(
+      "testimonials-swiper-wrapper"
+    );
+    if (testimonialsWrapper) {
+      fetch("assets/data/testimonials.json?v=" + Date.now())
+        .then((response) => response.json())
+        .then((testimonials) => {
+          testimonialsWrapper.innerHTML = testimonials
+            .map(
+              (t, idx) => `
+                  <div class="swiper-slide">
+                    <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="${
+                      100 + (idx % 3) * 100
+                    }">
+                      <div class="testimonial-header">
+                        <div class="user-avatar">
+                          <img src="${t.avatar}" alt="Profile Image" />
+                        </div>
+                        <div class="user-info">
+                          <h3>${t.name}</h3>
+                          <span class="user-role">${t.role}</span>
+                          <div class="rating">
+                            ${'<i class="bi bi-star-fill"></i>'.repeat(
+                              t.rating
+                            )}
+                          </div>
+                        </div>
+                      </div>
+                      <div class="testimonial-content">
+                        <div class="quote-mark"><i class="bi bi-quote"></i></div>
+                        <p>${t.quote}</p>
+                      </div>
+                      <div class="testimonial-footer">
+                        <div class="company-badge"><i class="bi bi-building"></i><span>${
+                          t.company
+                        }</span></div>
+                        <div class="verified-badge"><i class="bi bi-patch-check-fill"></i><span>Verified</span></div>
+                      </div>
+                    </div>
+                  </div>
+                `
+            )
+            .join("");
+          // Initialize Swiper after testimonials are rendered
+          setTimeout(() => {
+            if (window.Swiper) {
+              new Swiper(".testimonials-slider", {
+                loop: true,
+                speed: 600,
+                autoplay: { delay: 4000 },
+                slidesPerView: 1,
+                centeredSlides: true,
+                spaceBetween: 20,
+                pagination: {
+                  el: ".swiper-pagination",
+                  type: "bullets",
+                  clickable: true,
+                },
+                breakpoints: {
+                  768: { slidesPerView: 1.5, spaceBetween: 30 },
+                  1200: { slidesPerView: 3, spaceBetween: 40 },
+                },
+              });
+            }
+          }, 100);
+        });
+    }
+    // Dynamically render portfolio filter categories and items from JSON, then initialize Isotope
+    const portfolioFilters = document.getElementById("portfolio-filters");
     const portfolioList = document.getElementById("portfolio-list");
-    if (portfolioList) {
-      fetch("assets/data/portfolio.json")
+    if (portfolioFilters && portfolioList) {
+      fetch("assets/data/portfolio.json?v=" + Date.now())
         .then((response) => response.json())
         .then((projects) => {
+          // Render filters
+          const categories = [...new Set(projects.map((p) => p.category))];
+          let filtersHtml =
+            '<li data-filter="*" class="filter-active">All Projects</li>';
+          categories.forEach((cat) => {
+            const filterClass = `.filter-${cat
+              .toLowerCase()
+              .replace(/[^a-z0-9]+/g, "-")}`;
+            filtersHtml += `<li data-filter="${filterClass}">${cat}</li>`;
+          });
+          portfolioFilters.innerHTML = filtersHtml;
+          // Render items
           portfolioList.innerHTML = projects
             .map(
               (project, idx) => `
-                  <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-${project.category.toLowerCase()}">
+                  <div class="col-xl-4 col-lg-6 portfolio-item isotope-item filter-${project.category
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")}">
                     <div class="portfolio-wrapper">
                       <div class="portfolio-image">
                         <img src="${project.images[0]}" alt="${
@@ -57,11 +140,66 @@
                 `
             )
             .join("");
+          // Now initialize Isotope after DOM update
+          setTimeout(function () {
+            if (
+              typeof Isotope === "undefined" ||
+              typeof imagesLoaded === "undefined"
+            ) {
+              console.error("Isotope or imagesLoaded library is missing!");
+              return;
+            }
+            document
+              .querySelectorAll(".isotope-layout")
+              .forEach(function (isotopeItem) {
+                let layout =
+                  isotopeItem.getAttribute("data-layout") ?? "masonry";
+                let filter =
+                  isotopeItem.getAttribute("data-default-filter") ?? "*";
+                let sort =
+                  isotopeItem.getAttribute("data-sort") ?? "original-order";
+                let initIsotope;
+                imagesLoaded(
+                  isotopeItem.querySelector(".isotope-container"),
+                  function () {
+                    initIsotope = new Isotope(
+                      isotopeItem.querySelector(".isotope-container"),
+                      {
+                        itemSelector: ".isotope-item",
+                        layoutMode: layout,
+                        filter: filter,
+                        sortBy: sort,
+                      }
+                    );
+                    isotopeItem
+                      .querySelectorAll(".isotope-filters li")
+                      .forEach(function (filters) {
+                        filters.addEventListener(
+                          "click",
+                          function () {
+                            isotopeItem
+                              .querySelector(".isotope-filters .filter-active")
+                              .classList.remove("filter-active");
+                            this.classList.add("filter-active");
+                            initIsotope.arrange({
+                              filter: this.getAttribute("data-filter"),
+                            });
+                            if (typeof aosInit === "function") {
+                              aosInit();
+                            }
+                          },
+                          false
+                        );
+                      });
+                  }
+                );
+              });
+          }, 100); // Allow DOM to update
         });
     }
     const servicesList = document.getElementById("services-list");
     if (servicesList) {
-      fetch("assets/data/services.json")
+      fetch("assets/data/services.json?v=" + Date.now())
         .then((response) => response.json())
         .then((services) => {
           servicesList.innerHTML = services

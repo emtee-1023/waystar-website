@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Philip",
+    "role": "Business Owner",
+    "company": "Cut Central Barbershop",
+    "avatar": "assets/img/person/cut-central.png",
+    "rating": 5,
+    "quote": "Waystar set up a user-friendly POS system for our barbershop that made daily operations so much easier. Their team provided all the support we needed, answering questions quickly and making sure we were comfortable with every feature. We really appreciate their dedication and ongoing assistance."
+  },
+  {
+    "name": "Chad Diro",
+    "role": "Chief Executive Officer",
+    "company": "InLaw Legal",
+    "avatar": "assets/img/person/inlaw-legal.png",
+    "rating": 5,
+    "quote": "Waystar brings a fresh perspective to every project. Their team took our initial concept and elevated it with creative ideas we hadn’t considered. They refined our vision into something truly outstanding, blending innovation with practical solutions that exceeded our expectations."
+  },
+  {
+    "name": "Lydia Nyagaya",
+    "role": "Lead Psychologist",
+    "company": "Elevate Psychology",
+    "avatar": "assets/img/person/elevate-psychology.png",
+    "rating": 5,
+    "quote": "Waystar turned our ideas into a working solution faster than we imagined possible. Their team was efficient, responsive, and always kept us in the loop. We were impressed by how quickly they delivered results without ever compromising on quality."
+  },
+
+  {
+    "name": "Mark Talamson",
+    "role": "Chief Technology Officer",
+    "company": "InLaw Legal",
+    "avatar": "assets/img/person/inlaw-legal.png",
+    "rating": 5,
+    "quote": "Waystar doesn’t just work for you—they work with you. Their team involved us in every step, ensuring our ideas and feedback shaped the final product. The result was a platform that truly reflects our vision, built through genuine collaboration and partnership."
+  },
+  {
+    "name": "Lydia Nyagaya",
+    "role": "Lead Psychologist",
+    "company": "Elevate Psychology",
+    "avatar": "assets/img/person/elevate-psychology.png",
+    "rating": 5,
+    "quote": "Waystar turned our ideas into a working solution faster than we imagined possible. Their team was efficient, responsive, and always kept us in the loop. We were impressed by how quickly they delivered results without ever compromising on quality."
+  }
+]

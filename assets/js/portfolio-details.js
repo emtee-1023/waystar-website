@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const breadcrumbCurrent = document.querySelector(
         ".breadcrumb-item.current, .breadcrumb-item.active.current"
       );
-      if (breadcrumbCurrent) breadcrumbCurrent.textContent = project.title;
+      if (breadcrumbCurrent)
+        breadcrumbCurrent.textContent = project.title + " Project Details";
       document.querySelector(".title-wrapper h1").textContent = project.title;
       document.querySelector(".title-wrapper p").textContent =
         project.short_desc;

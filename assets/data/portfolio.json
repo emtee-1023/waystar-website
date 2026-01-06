@@ -9,7 +9,7 @@
     "client": "Elevate Psychology",
     "date": "2025",
     "website": "https://elevatepsychology.co.ke/",
-    "images": ["assets/img/portfolio/elevate-psychology.jpg"],
+    "images": ["assets/img/portfolio/elevatepsychology.jpg"],
     "gallery": [],
     "tech_stack": ["HTML", "CSS", "BOOTSTRAP", "JS", "PHP", "SEO"],
     "features": [
@@ -81,7 +81,7 @@
     "client": "Nairobi Feast",
     "date": "2025",
     "website": "https://nairobifeast.com",
-    "images": ["assets/img/portfolio/nairobifeast.jpg"],
+    "images": ["assets/img/portfolio/nairobi-feast.jpg"],
     "gallery": [],
     "tech_stack": ["NEXT JS", "POSTGRESQL", "SEO"],
     "features": [
@@ -105,7 +105,7 @@
     "category": "POS System",
     "client": "Cut Central",
     "date": "2025",
-    "website": "https://waystar.co.ke/service-details?id=1",
+    "website": "https://waystar.co.ke/service-details?id=1&slug=pos-systems-in-nairobi-kenya",
     "images": ["assets/img/portfolio/cut-central-pos.jpg"],
     "gallery": [],
     "tech_stack": ["FRAPPE", "ERPNEXT", "MYSQL", "POS"],
@@ -118,6 +118,6 @@
     ],
     "challenge": "Cut Central needed a reliable POS system to streamline their operations and improve customer service.",
     "solution": "Waystar delivered a custom FRAPPE/ERPNEXT solution with comprehensive sales, inventory, and customer management features.",
-    "live_url": "https://waystar.co.ke/service-details?id=1"
+    "live_url": "https://waystar.co.ke/service-details?id=1&slug=pos-systems-in-nairobi-kenya"
   }
 ]
