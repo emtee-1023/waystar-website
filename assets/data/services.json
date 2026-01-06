@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "slug": "pos-systems-in-nairobi-kenya",
+    "icon": "bi bi-receipt",
+    "short_name": "POS Systems",
+    "short_desc": "Smart, secure, and scalable point-of-sale solutions for retail, hospitality, and beyond—built for Africa.",
+    "title": "Revolutionize Your Business with Waystar POS",
+    "long_desc": "Our POS systems empower businesses to manage sales, inventory, and customer experiences with speed and precision. Designed for the African market, Waystar POS is intuitive, reliable, and ready to scale as you grow.",
+    "whats_included": [
+      "Real-time sales tracking",
+      "Inventory management",
+      "Multi-location support",
+      "Mobile and desktop compatibility",
+      "Secure payment integrations"
+    ],
+    "process": [
+      "Needs Assessment & Demo",
+      "System Customization",
+      "Deployment & Training",
+      "Ongoing Optimization"
+    ],
+    "details": {
+      "duration": "2-4 Weeks",
+      "delivery": "Onsite & Remote Setup",
+      "team_size": "2-4 Specialists",
+      "support": "Business Hours & Emergency Support"
+    }
+  },
+  {
+    "id": 2,
+    "slug": "erp-systems-in-nairobi-kenya",
+    "icon": "bi-diagram-3",
+    "short_name": "ERP Systems",
+    "short_desc": "Unify your operations with intelligent ERP platforms—streamlining finance, inventory, HR, and more.",
+    "title": "Waystar ERP: Your Business, Unified",
+    "long_desc": "Waystar ERP brings together every aspect of your business into one seamless platform. From finance to HR, inventory to analytics, our ERP solutions drive efficiency and growth for modern African enterprises.",
+    "whats_included": [
+      "Finance & accounting modules",
+      "Inventory & supply chain management",
+      "HR & payroll integration",
+      "Custom reporting & analytics",
+      "Role-based access control"
+    ],
+    "process": [
+      "Discovery & Planning",
+      "System Configuration",
+      "Data Migration",
+      "Training & Go-Live"
+    ],
+    "details": {
+      "duration": "1-3 Months",
+      "delivery": "Phased Rollout",
+      "team_size": "3-6 Specialists",
+      "support": "Dedicated Account Manager"
+    }
+  },
+  {
+    "id": 3,
+    "slug": "crm-systems-in-nairobi-kenya",
+    "icon": "bi-people",
+    "short_name": "CRM Systems",
+    "short_desc": "Build lasting relationships and drive sales with CRMs that put your customers at the heart of your business.",
+    "title": "Waystar CRM: Connect, Engage, Grow",
+    "long_desc": "Our CRM systems help you understand, engage, and delight your customers. Automate sales, track interactions, and personalize every touchpoint for maximum impact.",
+    "whats_included": [
+      "Contact & lead management",
+      "Sales pipeline automation",
+      "Customer segmentation",
+      "Email & SMS integration",
+      "Analytics & reporting"
+    ],
+    "process": [
+      "Consultation & Mapping",
+      "System Setup",
+      "User Training",
+      "Performance Review"
+    ],
+    "details": {
+      "duration": "2-6 Weeks",
+      "delivery": "Cloud & On-Premise Options",
+      "team_size": "2-4 Specialists",
+      "support": "24/7 Online Support"
+    }
+  },
+  {
+    "id": 4,
+    "slug": "custom-websites-in-nairobi-kenya",
+    "icon": "bi-window",
+    "short_name": "Custom Websites",
+    "short_desc": "We design and build websites that captivate and convert—on any device.",
+    "title": "Waystar Web: Your Brand, Online",
+    "long_desc": "From bold brands to seamless e-commerce, Waystar crafts custom websites that are fast, secure, and visually stunning. Every site is built for your goals and audience.",
+    "whats_included": [
+      "Responsive design",
+      "SEO optimization",
+      "E-commerce integration",
+      "Content management system",
+      "Performance analytics"
+    ],
+    "process": [
+      "Discovery & Wireframing",
+      "Design & Development",
+      "Testing & Launch",
+      "Maintenance & Growth"
+    ],
+    "details": {
+      "duration": "3-8 Weeks",
+      "delivery": "Staged Milestones",
+      "team_size": "2-5 Specialists",
+      "support": "Ongoing Maintenance"
+    }
+  },
+  {
+    "id": 5,
+    "slug": "it-consultancy-in-nairobi-kenya",
+    "icon": "bi-headset",
+    "short_name": "IT Consultancy",
+    "short_desc": "Expert guidance for your digital journey—strategy, security, cloud, and everything in between.",
+    "title": "Waystar IT Consultancy: Navigate Digital Change",
+    "long_desc": "Our consultants help you make smart technology decisions, optimize infrastructure, and secure your business. We’re your trusted advisors for every digital challenge.",
+    "whats_included": [
+      "IT strategy & planning",
+      "Cybersecurity assessment",
+      "Cloud migration",
+      "Infrastructure optimization",
+      "Vendor management"
+    ],
+    "process": [
+      "Initial Consultation",
+      "Assessment & Recommendations",
+      "Implementation",
+      "Review & Support"
+    ],
+    "details": {
+      "duration": "Flexible",
+      "delivery": "Onsite & Remote",
+      "team_size": "1-3 Consultants",
+      "support": "Priority Support"
+    }
+  },
+  {
+    "id": 6,
+    "slug": "ai-integration-in-nairobi-kenya",
+    "icon": "bi-cpu",
+    "short_name": "AI Integration",
+    "short_desc": "Infuse intelligence into your business with AI-powered automation, analytics, and next-gen experiences.",
+    "title": "Waystar AI: Smarter Business, Real Results",
+    "long_desc": "We integrate AI into your workflows, products, and customer experiences. Automate tasks, gain insights, and unlock new opportunities with Waystar’s AI solutions.",
+    "whats_included": [
+      "AI-powered automation",
+      "Predictive analytics",
+      "Chatbots & virtual assistants",
+      "Image & data recognition",
+      "Custom AI models"
+    ],
+    "process": [
+      "Opportunity Analysis",
+      "Solution Design",
+      "Integration & Testing",
+      "Continuous Improvement"
+    ],
+    "details": {
+      "duration": "2-8 Weeks",
+      "delivery": "Agile Sprints",
+      "team_size": "2-5 AI Engineers",
+      "support": "AI Support Desk"
+    }
+  },
+  {
+    "id": 7,
+    "slug": "workflows-in-nairobi-kenya",
+    "icon": "bi-arrow-repeat",
+    "short_name": "Workflows",
+    "short_desc": "Automate, optimize, and orchestrate your business processes for speed, accuracy, and innovation.",
+    "title": "Waystar Workflows: Efficiency Unleashed",
+    "long_desc": "We design and implement automated workflows that save time, reduce errors, and boost productivity. From finance to HR, our solutions fit your unique needs.",
+    "whats_included": [
+      "Process mapping",
+      "Automation tools",
+      "Integration with existing systems",
+      "Performance monitoring",
+      "User training"
+    ],
+    "process": [
+      "Process Audit",
+      "Workflow Design",
+      "Implementation",
+      "Monitoring & Optimization"
+    ],
+    "details": {
+      "duration": "2-6 Weeks",
+      "delivery": "Stepwise Deployment",
+      "team_size": "2-4 Specialists",
+      "support": "Workflow Support Desk"
+    }
+  },
+  {
+    "id": 8,
+    "slug": "ui-ux-design-in-nairobi-kenya",
+    "icon": "bi-palette",
+    "short_name": "UI/UX Design",
+    "short_desc": "Human-centered design that delights users and drives results—beautiful, intuitive, and always on-brand.",
+    "title": "Waystar UI/UX: Design That Works",
+    "long_desc": "Our designers create interfaces and experiences that are beautiful, intuitive, and drive real business results. Every pixel is crafted for your users.",
+    "whats_included": [
+      "User research & personas",
+      "Wireframing & prototyping",
+      "Visual design",
+      "Usability testing",
+      "Design system creation"
+    ],
+    "process": [
+      "Research & Discovery",
+      "Concept & Wireframe",
+      "Design & Test",
+      "Launch & Iterate"
+    ],
+    "details": {
+      "duration": "2-5 Weeks",
+      "delivery": "Design Sprints",
+      "team_size": "1-3 Designers",
+      "support": "Design Support Desk"
+    }
+  },
+  {
+    "id": 9,
+    "slug": "mobile-app-development-in-nairobi-kenya",
+    "icon": "bi-phone",
+    "short_name": "Mobile App Development",
+    "short_desc": "Native and cross-platform mobile apps that put your business in your customer’s pocket—anytime, anywhere.",
+    "title": "Waystar Mobile: Apps for Africa",
+    "long_desc": "We build mobile apps that are fast, secure, and tailored to your business goals. Reach your customers wherever they are with Waystar’s mobile solutions.",
+    "whats_included": [
+      "iOS & Android development",
+      "Cross-platform solutions",
+      "App store deployment",
+      "Push notifications",
+      "Analytics & updates"
+    ],
+    "process": [
+      "Requirements Gathering",
+      "Design & Development",
+      "Testing & Launch",
+      "Post-Launch Support"
+    ],
+    "details": {
+      "duration": "4-10 Weeks",
+      "delivery": "Milestone-Based",
+      "team_size": "2-5 Developers",
+      "support": "App Support Desk"
+    }
+  }
+]

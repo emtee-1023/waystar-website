@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "slug": "elevate-psychology-website-nairobi-kenya",
+    "title": "Elevate Psychology Website",
+    "short_desc": "A modern, calming web presence for Elevate Psychology in Nairobi.",
+    "long_desc": "Waystar designed and developed a serene, user-friendly website for Elevate Psychology, making it easy for clients to learn about services, book appointments, and access resources.",
+    "category": "Website",
+    "client": "Elevate Psychology",
+    "date": "2025",
+    "website": "https://elevatepsychology.co.ke/",
+    "images": ["assets/img/portfolio/elevate-psychology.jpg"],
+    "gallery": [],
+    "tech_stack": ["HTML", "CSS", "BOOTSTRAP", "JS", "PHP", "SEO"],
+    "features": [
+      "Online appointment booking",
+      "Resource library",
+      "Mobile responsive design",
+      "Contact forms",
+      "SEO optimized"
+    ],
+    "challenge": "The client needed a welcoming, professional site to build trust and streamline client engagement.",
+    "solution": "Waystar delivered a custom WordPress site with intuitive navigation and a calming aesthetic.",
+    "live_url": "https://elevatepsychology.co.ke/"
+  },
+  {
+    "id": 2,
+    "slug": "inlaw-legal-website-nairobi-kenya",
+    "title": "Inlaw Legal Website",
+    "short_desc": "A professional digital platform for Inlaw Legal in Nairobi.",
+    "long_desc": "Waystar created a sleek, authoritative website for Inlaw Legal, showcasing their expertise and making it easy for clients to request legal services online.",
+    "category": "Website",
+    "client": "Inlaw Legal",
+    "date": "2024",
+    "website": "https://inlaw-legal.tech/",
+    "images": ["assets/img/portfolio/inlaw-legal.jpg"],
+    "gallery": [],
+    "tech_stack": ["Laravel", "Custom Theme", "PHP", "MySQL", "SEO"],
+    "features": [
+      "Service request forms",
+      "Attorney profiles",
+      "Mobile-first design",
+      "Blog integration",
+      "Secure client portal"
+    ],
+    "challenge": "Inlaw Legal needed a digital presence that reflected their credibility and simplified client intake.",
+    "solution": "Waystar built a custom theme with clear calls to action and robust contact features.",
+    "live_url": "https://inlaw-legal.tech/"
+  },
+  {
+    "id": 3,
+    "slug": "neurohaven-africa-website-nairobi-kenya",
+    "title": "Neurohaven Africa Website",
+    "short_desc": "A vibrant, informative site for Neurohaven Africa’s mental health mission.",
+    "long_desc": "Waystar developed a colorful, accessible website for Neurohaven Africa, helping them reach more people and share vital mental health resources.",
+    "category": "Website",
+    "client": "Neurohaven Africa",
+    "date": "2025",
+    "website": "https://neurohaven.africa/",
+    "images": ["assets/img/portfolio/neurohaven-africa.jpg"],
+    "gallery": [],
+    "tech_stack": ["Laravel", "HTML", "JS", "CSS", "MySQL", "SEO"],
+    "features": [
+      "Resource hub",
+      "Events calendar",
+      "Accessible design",
+      "Newsletter signup",
+      "Social media integration"
+    ],
+    "challenge": "Neurohaven Africa needed a site that was both engaging and easy to navigate for diverse audiences.",
+    "solution": "Waystar delivered a vibrant, accessible site with a focus on resources and community engagement.",
+    "live_url": "https://neurohaven.africa/"
+  },
+  {
+    "id": 4,
+    "slug": "nairobifeast-platform-nairobi-kenya",
+    "title": "Nairobi Feast Platform",
+    "short_desc": "A dynamic restaurant discovery platform for Nairobi Feast.",
+    "long_desc": "Waystar built a lively, interactive platform for Nairobi Feast, connecting food lovers and event organizers across the city.",
+    "category": "Website",
+    "client": "Nairobi Feast",
+    "date": "2025",
+    "website": "https://nairobifeast.com",
+    "images": ["assets/img/portfolio/nairobifeast.jpg"],
+    "gallery": [],
+    "tech_stack": ["NEXT JS", "POSTGRESQL", "SEO"],
+    "features": [
+      "Event listings",
+      "Vendor profiles",
+      "User registration",
+      "Interactive maps",
+      "Mobile optimization"
+    ],
+    "challenge": "Nairobi Feast needed a scalable platform to manage events and connect users in real time.",
+    "solution": "Waystar delivered a custom Laravel/Vue.js solution with robust event and user management features.",
+    "live_url": "https://nairobifeast.com"
+  },
+
+  {
+    "id": 5,
+    "slug": "cut-central-pos-system-nairobi-kenya",
+    "title": "Cut Central POS System",
+    "short_desc": "A tailored POS solution for Cut Central Barbershop in Nairobi.",
+    "long_desc": "Waystar developed a custom Point of Sale system for Cut Central, streamlining their sales, inventory, and customer management processes.",
+    "category": "POS System",
+    "client": "Cut Central",
+    "date": "2025",
+    "website": "https://waystar.co.ke/service-details?id=1",
+    "images": ["assets/img/portfolio/cut-central-pos.jpg"],
+    "gallery": [],
+    "tech_stack": ["FRAPPE", "ERPNEXT", "MYSQL", "POS"],
+    "features": [
+      "Sales tracking",
+      "Inventory management",
+      "Customer database",
+      "Multi-user access",
+      "Reporting tools"
+    ],
+    "challenge": "Cut Central needed a reliable POS system to streamline their operations and improve customer service.",
+    "solution": "Waystar delivered a custom FRAPPE/ERPNEXT solution with comprehensive sales, inventory, and customer management features.",
+    "live_url": "https://waystar.co.ke/service-details?id=1"
+  }
+]
