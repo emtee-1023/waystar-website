@@ -57,7 +57,7 @@
             <div class="hero-visual">
               <div class="hero-image">
                 <img
-                  src="assets/img/misc/undraw_qa-engineers_kgp8.svg"
+                  src="assets/img/misc/undraw_programming_j1zw.svg"
                   alt="Digital Agency Hero"
                   class="img-fluid" />
               </div>
@@ -106,14 +106,14 @@
             <div class="image-composition">
               <div class="image-main">
                 <img
-                  src="assets/img/about/about-9.webp"
+                  src="assets/img/about/africa.avif"
                   alt="Modern office with a team working"
                   class="img-fluid"
                   loading="lazy" />
               </div>
               <div class="image-secondary">
                 <img
-                  src="assets/img/about/about-square-8.webp"
+                  src="assets/img/about/work mates.avif"
                   alt="Collaborative discussion"
                   class="img-fluid"
                   loading="lazy" />
@@ -242,7 +242,7 @@
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
             <div class="feature-showcase">
               <img
-                src="assets/img/illustration/illustration-14.webp"
+                src="assets/img/illustration/undraw_work-chat_hc3y.svg"
                 alt="Creative Process"
                 class="img-fluid" />
             </div>

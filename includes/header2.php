@@ -16,6 +16,7 @@
         <li><a href="index#about">About</a></li>
         <li><a href="index#services">Services</a></li>
         <li><a href="index#portfolio">Portfolio</a></li>
+        <li><a href="index#testimonials">Testimonials</a></li>
         <!-- <li><a href="#team">Team</a></li> -->
         <!-- <li class="dropdown">
               <a href="#"
