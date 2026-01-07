@@ -27,6 +27,36 @@
       "support": "Business Hours & Emergency Support"
     }
   },
+
+  {
+    "id": 10,
+    "slug": "hospital-management-systems-in-nairobi-kenya",
+    "icon": "bi bi-hospital",
+    "short_name": "Hospital Management Systems",
+    "short_desc": "Comprehensive hospital management solutions that streamline patient care, administration, and operations.",
+    "title": "Waystar Hospital Management: Care Simplified",
+    "long_desc": "Our hospital management systems integrate all aspects of healthcare delivery, from patient records to billing and staff management, ensuring efficient and effective care.",
+    "whats_included": [
+      "Patient registration & records",
+      "Appointment scheduling",
+      "Billing & insurance processing",
+      "Inventory & pharmacy management",
+      "Staff & resource allocation"
+    ],
+    "process": [
+      "Requirement Analysis",
+      "System Design & Customization",
+      "Implementation & Training",
+      "Support & Maintenance"
+    ],
+    "details": {
+      "duration": "1-2 Weeks",
+      "delivery": "Milestone-Based",
+      "team_size": "2-5 Developers",
+      "support": "App Support Desk"
+    }
+  },
+
   {
     "id": 2,
     "slug": "erp-systems-in-nairobi-kenya",

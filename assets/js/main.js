@@ -222,6 +222,11 @@
                     : ""
                 }
                 ${
+                  service.short_name === "Hospital Management Systems"
+                    ? '<div class="service-badge">New</div>'
+                    : ""
+                }
+                ${
                   service.short_name === "AI Integration"
                     ? '<div class="service-badge">Future-Ready</div>'
                     : ""
