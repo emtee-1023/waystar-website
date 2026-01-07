@@ -176,10 +176,10 @@
                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
                   </div>
                   <div class="form-group mb-3">
-                    <input type="email" name="email" class="form-control" id="email" placeholder="Your Email" required="">
+                    <input type="text" name="contact" class="form-control" id="email" placeholder="Your Email or Phone Number" required="">
                   </div>
                   <div class="form-group mb-3">
-                    <input type="tel" name="phone" class="form-control" id="phone" placeholder="Your Phone">
+                    <input type="text" name="subject" class="form-control" id="subject" placeholder="Subject" required="">
                   </div>
                   <input type="hidden" name="subect" value="Service Quote Request">
                   <div class="form-group mb-4">

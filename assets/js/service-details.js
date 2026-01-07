@@ -72,5 +72,19 @@ document.addEventListener("DOMContentLoaded", function () {
           <li><span class="fact-label">Support:</span><span class="fact-value">${service.details.support}</span></li>
         `;
       }
+
+      //Contact Form Title
+      const contactTitle = document.querySelector(".inquiry-form h4");
+      if (contactTitle) {
+        contactTitle.textContent = "Get a Quote for " + service.short_name;
+      }
+
+      //contact form subject
+      const contactSubject = document.querySelector(
+        ".inquiry-form form #subject"
+      );
+      if (contactSubject) {
+        contactSubject.value = "Quote Request For " + service.short_name;
+      }
     });
 });
